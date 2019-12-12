@@ -210,7 +210,9 @@ Primary use:
 #aviso{
   padding: 10px;
 }
-
+.centered{
+  text-align: center;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
