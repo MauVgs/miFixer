@@ -202,8 +202,14 @@ Primary use:
   font-size: 24px;
   color: #999;
   line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
+#aviso{
+  padding: 10px;
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -239,11 +245,15 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ Width ]*/
 .wsize1 {
-  width: 50%;
+  width: 100%;
 }
 
 .wsize2 {
   max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -254,15 +264,19 @@ Primary use:
 
 /*//////////////////////////////////////////////////////////////////
 [ Background ]*/
-.bg0 {background-color: #fff;}
+.bg0 {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .bg-img1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -287,23 +301,6 @@ Primary use:
 .placeholder0::-moz-placeholder { color: #999999;}
 .placeholder0:-ms-input-placeholder { color: #999999;}
 
-
-/*---------------------------------------------*/
-.overlay1 {
-  position: relative;
-  z-index: 1;
-}
-.overlay1::after {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0,0,0,0.5);
-}
 
 /*---------------------------------------------*/
 .wrappic1 {
